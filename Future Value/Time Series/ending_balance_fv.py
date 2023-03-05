@@ -20,7 +20,7 @@ def plot_balances(ending_balance):
     plt.title('Ending Balance Over Time')
     plt.xlabel('Time in Years')
     plt.ylabel('Balance in USD')
-    fig.savefig('ending_balance_over_time.png')
+    fig.savefig('ending_balance_over_time.png', bbox_inches='tight')
 
 r = 0.05
 ending_balance = np.ones(20) * 100000
