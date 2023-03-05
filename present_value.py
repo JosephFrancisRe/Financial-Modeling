@@ -5,9 +5,6 @@ Created on Sat Mar  4 21:23:48 2023
 @author: JosephRe
 """
 
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 import random
 import locale
 
