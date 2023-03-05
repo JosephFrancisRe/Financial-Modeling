@@ -22,7 +22,7 @@ def plot(cashflows):
     plt.title('Present Value of Lottery Payments Over Time')
     plt.xlabel('Time in Years')
     plt.ylabel('Present Value in USD')
-    fig.savefig('lottery_pv_over_time.png')
+    fig.savefig('lottery_pv_over_time.png', bbox_inches='tight')
     
 def discounted_payments_pv(cashflows):
     return sum(cashflows)
