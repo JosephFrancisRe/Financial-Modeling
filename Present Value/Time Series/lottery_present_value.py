@@ -31,7 +31,7 @@ def print_discounted_payments_pv(cashflows):
     locale.setlocale(locale.LC_ALL, '')
     print(locale.currency(discounted_payments_pv(cashflows), grouping=True))
 
-r = random.randrange(90, 120, 5) / 10000
+r = 0.05
 cashflows = np.ones(20) * random.randrange(10000, 100001)
 num_of_payments = cashflows.size
 discount_payments(num_of_payments, r)
