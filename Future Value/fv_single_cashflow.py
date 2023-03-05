@@ -5,9 +5,6 @@ Created on Sat Mar  4 22:24:16 2023
 @author: JosephRe
 """
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 import random
 
 def fv(pv, r, T):
