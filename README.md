@@ -11,7 +11,7 @@ The import packages used throughout this repository include:
 5. matplotlib
 
 ------------
-The exercises contained within span the following topics:
+The files are associated with exercises that span the following topics:
 <li>Time Value of Money: PV / FV
 <li>NPV / IRR Calculations
 <li>Loan Amortization Scenario Analysis
