@@ -3,7 +3,7 @@
 This repository contains a variety of financial modeling exercises that were conducted in Python.
 
 ------------
-The import packages used over the course of this repository include:
+The import packages used throughout this repository include:
 1. numpy
 2. pandas
 3. pandas_finance
