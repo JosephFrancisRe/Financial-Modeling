@@ -9,7 +9,7 @@ import numpy.random as npr
 
 # IRA account with ETF in S&P500
 pv = 100000
-er = 0.95
+er = 0.095
 time_horizon = 30
 ending_balance = 0
 
@@ -17,7 +17,7 @@ ending_balance = 0
 print("{:10s} {:15s}".format("Year", "Ending Balance"))
 print("-" * 26)
 for year in range(1, time_horizon + 1):
-    ending_balance = pv * (1+ er)
+    ending_balance = pv * (1 + er)
     print("{:<10d} {:15,.0f}".format(year, ending_balance))
     pv = ending_balance
     
@@ -28,7 +28,7 @@ volatility = market_volatility + inflation
 
 # Reset starting balances
 pv = 100000
-er = 0.95
+er = 0.095
 time_horizon = 30
 ending_balance = 0
 
